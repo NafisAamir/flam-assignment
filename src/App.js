@@ -1,4 +1,5 @@
 import { BottomSheet } from "./Components/BottomSheet";
+import "./App.css"
 
 function App() {
   return (

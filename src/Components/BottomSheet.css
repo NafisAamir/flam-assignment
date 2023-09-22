@@ -1,9 +1,10 @@
+
 .bottom-sheet {
     position: fixed;
     bottom: 0;
 
-    left: 0;
-    width: 100%;
+    left: 15%;
+    width: 70%;
     height: 33%;
 
     background-color: rgb(5, 5, 5);
@@ -12,8 +13,10 @@
     transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: auto;
 }
-
 .bottom-sheet.closed {
     height: 20%;
     transform: translateY(50%)
